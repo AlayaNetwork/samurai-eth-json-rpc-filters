@@ -1,4 +1,4 @@
-const EthQuery = require('eth-query')
+const EthQuery = require('@alayanetwork/eth-query')
 const pify = require('pify')
 const BaseFilterWithHistory = require('./base-filter-history')
 const { bnToHex, hexToInt, incrementHexInt, minBlockRef, blockRefIsNumber } = require('./hexUtils')
